@@ -1,0 +1,40 @@
+/* Estilos da página index.html*/
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: center;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 15px;
+    font-size: 30px;
+   
+}
+
+.menu ul li a:hover{
+    color: #BCD2EE;
+    transition: 300ms;
+
+}
+/* Estilos da página contato.html*/
